@@ -1,11 +1,10 @@
 package top.mphy.algo.hello_algo.chatper4_array_and_linkedlist;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.IntStream;
 
-public class Array {
+public class ArrayExample {
 
     public static void main(String[] args) {
         arrayInit();
