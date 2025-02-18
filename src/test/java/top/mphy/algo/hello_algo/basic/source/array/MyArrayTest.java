@@ -1,7 +1,7 @@
-package top.mphy.algo.hello_algo.basic.source;
+package top.mphy.algo.hello_algo.basic.source.array;
 
 import org.junit.jupiter.api.Test;
-import top.mphy.algo.basic.source.MyArray;
+import top.mphy.algo.basic.source.array.MyArray;
 
 import static org.junit.jupiter.api.Assertions.*;
 

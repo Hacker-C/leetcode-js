@@ -1,4 +1,4 @@
-package top.mphy.algo.basic.source;
+package top.mphy.algo.basic.source.array;
 
 import java.lang.reflect.Array;
 
