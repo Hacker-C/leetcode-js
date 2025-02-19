@@ -1,4 +1,4 @@
-package top.mphy.algo.basic.source.linkedlist;
+package top.mphy.algo.basic.core.linkedlist;
 
 public class ListNode<T> {
     public T value;

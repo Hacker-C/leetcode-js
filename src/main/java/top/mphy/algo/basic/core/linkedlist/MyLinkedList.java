@@ -1,4 +1,4 @@
-package top.mphy.algo.basic.source.linkedlist;
+package top.mphy.algo.basic.core.linkedlist;
 
 import java.util.ArrayList;
 import java.util.List;

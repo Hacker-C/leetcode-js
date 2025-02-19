@@ -3,7 +3,7 @@ package top.mphy.algo.hello_algo.basic.source.linkedlist;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-import top.mphy.algo.basic.source.linkedlist.MyLinkedList;
+import top.mphy.algo.basic.core.linkedlist.MyLinkedList;
 
 public class MyLinkedListTest {
     @Test

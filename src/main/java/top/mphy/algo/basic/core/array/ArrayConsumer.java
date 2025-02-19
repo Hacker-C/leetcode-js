@@ -1,4 +1,4 @@
-package top.mphy.algo.basic.source.array;
+package top.mphy.algo.basic.core.array;
 
 @FunctionalInterface
 public interface ArrayConsumer<T> {
