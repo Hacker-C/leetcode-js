@@ -3,9 +3,9 @@ package top.mphy.algo.basic.core.linkedlist;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyLinkedList {
+public class MyLinkedList2 {
     private ListNode<Integer> head = null;
-    public MyLinkedList() {
+    public MyLinkedList2() {
     }
 
     public int get(int index) {

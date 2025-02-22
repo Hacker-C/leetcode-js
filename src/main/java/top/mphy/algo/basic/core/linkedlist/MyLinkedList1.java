@@ -2,14 +2,13 @@ package top.mphy.algo.basic.core.linkedlist;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
-public class LinkedList<T> {
+public class MyLinkedList1<T> {
 
     public ListNode<T> head;
 
     @SafeVarargs
-    public LinkedList(T...values) {
+    public MyLinkedList1(T...values) {
         if (values.length == 0) {
             head = null;
             return;
