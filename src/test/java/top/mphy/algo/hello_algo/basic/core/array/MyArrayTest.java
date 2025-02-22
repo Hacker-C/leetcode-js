@@ -1,4 +1,4 @@
-package top.mphy.algo.hello_algo.basic.source.array;
+package top.mphy.algo.hello_algo.basic.core.array;
 
 import org.junit.jupiter.api.Test;
 import top.mphy.algo.basic.core.array.MyArray;

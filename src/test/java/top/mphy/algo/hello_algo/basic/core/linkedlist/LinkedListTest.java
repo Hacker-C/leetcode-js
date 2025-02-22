@@ -1,4 +1,4 @@
-package top.mphy.algo.hello_algo.basic.source.linkedlist;
+package top.mphy.algo.hello_algo.basic.core.linkedlist;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
