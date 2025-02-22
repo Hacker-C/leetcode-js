@@ -47,5 +47,11 @@ public class LinkedListTest {
         linkedList.insert(linkedList.head, n6);
         linkedList.insert(n6, 7);
         assertEquals("-1->6->7->4->3->5", linkedList.toString());
+
+        ListNode<Integer> n7 = linkedList.find(7);
+        assertEquals(7, n7.value);
+
+        ListNode<Integer> n99 = linkedList.find(99);
+        assertNull(n99);
     }
 }

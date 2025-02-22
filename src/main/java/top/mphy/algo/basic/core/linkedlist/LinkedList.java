@@ -2,6 +2,7 @@ package top.mphy.algo.basic.core.linkedlist;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class LinkedList<T> {
 
@@ -59,6 +60,18 @@ public class LinkedList<T> {
         if (cur != null) {
             pre.next = cur.next;
         }
+    }
+
+    /* 在链表中查找值为 target 的首个节点 */
+    public ListNode<T> find(T target) {
+        ListNode<T> cur = head;
+        while (cur != null) {
+            if (cur.value == target) {
+                return cur;
+            }
+            cur = cur.next;
+        }
+        return null;
     }
 
     public String toString() {
