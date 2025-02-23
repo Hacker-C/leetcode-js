@@ -114,7 +114,7 @@ Integer[] integers1 = Arrays.stream(ints1).boxed().toArray(Integer[]::new);
 
 - [单向链表](../core/linkedlist/MyLinkedList1.java)
 - [循环链表](../core/linkedlist/CircularLinkedList.java)
-- 双端链表
+- [双端链表](../core/linkedlist/DoublyLinkedList.java)
 
 ### 2.3 常见考题
 
