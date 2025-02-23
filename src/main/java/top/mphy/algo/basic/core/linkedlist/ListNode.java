@@ -7,4 +7,9 @@ public class ListNode<T> {
     public ListNode(T value) {
         this.value = value;
     }
+
+    public ListNode(T value, ListNode<T> next) {
+        this.value = value;
+        this.next = next;
+    }
 }

@@ -1,0 +1,2 @@
+- 递归本质是栈的应用：每次递归调用都会在内存栈中创建一个新的栈帧，保存当前函数的状态（如参数、局部变量等）。
+- 推荐阅读：[看不懂递归的看过来，希望能帮到你！](https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/solutions/476929/jian-zhi-offer-24-fan-zhuan-lian-biao-die-dai-di-2/comments/790716)
