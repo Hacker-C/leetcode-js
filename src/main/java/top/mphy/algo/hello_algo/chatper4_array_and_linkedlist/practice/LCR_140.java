@@ -4,25 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LCR_140 {
-    public ListNode trainingPlan1(ListNode head, int cnt) {
-        List<ListNode> list = new ArrayList<>();
+    public ListNode trainingPlan(ListNode head, int cnt) {
         ListNode cur = head;
+        while (cnt-- > 0 && cur != null) {
+            cur = cur.next;
+        }
+        ListNode res = head;
         while (cur != null) {
-            list.add(cur);
+            res = res.next;
             cur = cur.next;
         }
-        return list.get(list.size() - cnt);
-    }
-
-    public ListNode trainingPlan2(ListNode head, int cnt) {
-        ListNode pre = head, cur = head;
-        for (int i = 0; i < cnt; i++) {
-            cur = cur.next;
-        }
-        while (cur != null) {
-            pre = pre.next;
-            cur = cur.next;
-        }
-        return pre;
+        return res;
     }
 }
